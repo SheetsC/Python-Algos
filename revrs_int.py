@@ -1,3 +1,4 @@
+# using slice methods to revers the string
 class Solution:
     def reverse(self, x: int) -> int:
         str_x = str(abs(x))
