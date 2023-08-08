@@ -1,3 +1,5 @@
+# this is the implementation of a LinkedList and a few common methods
+# that are used. This came from testGorilla from COCOLEVIO
 class Node:
     def __init__(self, value):
         self.value = value
@@ -26,8 +28,7 @@ class LinkedList:
         return list_of_links
     
     def get_newest_first(self):
-        newest_first = self.make_list()
-        newest_first.reverse()
-        return newest_first
+        return self.make_list()[::-1]
+       
 
 
